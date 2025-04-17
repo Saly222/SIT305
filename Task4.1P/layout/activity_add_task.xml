@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#212121"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#212121"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due Date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#212121"
+        android:textColorHint="#9E9E9E"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Task"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+</LinearLayout>
