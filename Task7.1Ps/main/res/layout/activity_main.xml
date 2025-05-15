@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Add button near the top -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="Create a new advert"
+        android:layout_marginTop="250dp" />
+
+    <!-- Some space between buttons -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- Show button a bit lower, centered horizontally -->
+
+    <!-- ListView below -->
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="Show All Lost &amp; Found Items" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
